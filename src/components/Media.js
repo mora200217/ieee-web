@@ -6,15 +6,16 @@ import 'styles/media.sass'
 import facebook from 'assets/facebook.svg'
 import linkedin from 'assets/linkedin.svg'
 import instagram from 'assets/instagram.svg'
-import youtube from 'assets/youtube.svg'
+import youtube from 'assets/Youtube.svg'
 
 export const Media = () => {
 	return (
-		<div className = "media-container container d-flex flex-column"> 
-			<a href=""><img style = {{filter: 'sepia(60%)'}}src={facebook} alt=""/></a>
-			<a href=""><img src={linkedin} alt=""/></a>
-			<a href=""><img src={instagram} alt=""/></a>
-			<a href=""><img src={youtube} alt=""/></a>
+		<div className = "mb-4 ml-2 media-container container d-flex flex-column"> 
+			<a target = "blank_" href="https://www.facebook.com/ieeeunbog"><img src={facebook} alt=""/></a>
+			<a href="https://www.linkedin.com/company/rama-estudiantil-ieee-un"><img src={linkedin} alt=""/></a>
+			<a href="https://www.youtube.com/channel/UCeTZBxrApbe3yn7-R8ovALA"><img src={youtube} alt=""/></a>
+			<a href="https://www.instagram.com/ramaieeeun/"><img src={instagram} alt=""/></a>
+			
 		</div>
 		) 
 
